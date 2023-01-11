@@ -2,10 +2,95 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				header: 'Crete Round, Geneva, Arial, Helvetica, sans-serif',
+				'sub-header': 'PT Sans, Verdana, Arial, Helvetica, sans-serif',
+				content: 'PT Sans, Verdana, Arial, Helvetica, sans-serif'
+			},
+			colors: {
+				'awf-light-green': '#99cc66',
+				'awf-light-orange': '#fdbd50',
+				'awf-light-brown': '#d1b173',
+				'awf-dark-green': '#669900',
+				'awf-dark-orange': '#ff9900',
+				'awf-dark-brown': '#996633',
+				'awf-bright-orange': '#f67e0a',
+				'potters-clay': {
+					50: '#f9f6ed',
+					100: '#f0e8d1',
+					200: '#e2d0a6',
+					300: '#d1b173',
+					400: '#c3964c',
+					500: '#b4823e',
+					600: '#996633',
+					700: '#7c4d2c',
+					800: '#68402b',
+					900: '#5a3729'
+				},
+				'wild-willow': {
+					50: '#f3faeb',
+					100: '#e5f3d4',
+					200: '#cde8ae',
+					300: '#acd97d',
+					400: '#99cc66',
+					500: '#6fab37',
+					600: '#548828',
+					700: '#426823',
+					800: '#375420',
+					900: '#30481f'
+				},
+				'texas-rose': {
+					50: '#fff8eb',
+					100: '#feecc7',
+					200: '#fed689',
+					300: '#fdbd50',
+					400: '#fca323',
+					500: '#f67e0a',
+					600: '#da5a05',
+					700: '#b53c08',
+					800: '#932e0d',
+					900: '#79260e'
+				},
+				limeade: {
+					50: '#fbffe4',
+					100: '#f4ffc4',
+					200: '#e8ff90',
+					300: '#d4ff50',
+					400: '#bffe1d',
+					500: '#9fe500',
+					600: '#7bb800',
+					700: '#669900',
+					800: '#4a6d07',
+					900: '#3f5c0b'
+				},
+				'orange-peel': {
+					50: '#fffbea',
+					100: '#fff2c5',
+					200: '#ffe685',
+					300: '#ffd246',
+					400: '#ffbd1b',
+					500: '#ff9900',
+					600: '#e27200',
+					700: '#bb4d02',
+					800: '#983b08',
+					900: '#7c310b'
+				}
+			}
+		}
 	},
 
 	plugins: []
 };
 
 module.exports = config;
+
+/*
+  awf-light-green    "wild-willow-400"
+  awf-light-orange   "texas-rose-300"
+  awf-light-brown    "potters-clay-300"
+  awf-dark-brown     "potters-clay-600"
+  awf-dark-green     "limeade-700"
+  awf-dark-orange    "texas-rose-500"
+    awf-dark-orange    "orange-peel-500"
+*/

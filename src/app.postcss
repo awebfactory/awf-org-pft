@@ -2,3 +2,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	header {
+		@apply m-auto p-4;
+	}
+	main {
+		@apply m-auto p-4 md:max-w-7xl lg:max-w-full lg:px-36;
+	}
+	h1 {
+		@apply m-auto font-header font-medium text-4xl text-potters-clay-600;
+	}
+	h2 {
+		@apply m-auto font-header font-medium text-3xl text-potters-clay-600;
+	}
+	h3 {
+		@apply font-header font-medium text-2xl text-wild-willow-400;
+	}
+	h4 {
+		@apply font-header font-medium text-xl text-wild-willow-400;
+	}
+	p {
+		@apply font-content font-normal text-base leading-snug text-slate-500;
+	}
+	ul li {
+		@apply font-content font-normal text-base leading-snug text-slate-500;
+	}
+	p a {
+		@apply font-content font-normal text-base leading-snug text-wild-willow-400 hover:text-texas-rose-500;
+	}
+	ul li a {
+		@apply font-content font-normal text-base leading-snug text-wild-willow-400 hover:text-texas-rose-500;
+	}
+}
