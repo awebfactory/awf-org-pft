@@ -19,7 +19,13 @@ Repo for awebfactory.org: web application factory pattern - workspaces for web a
 - Starts from scratch
 - Shows each step commit by commit so you can do it yourself
 
-## create-svelte
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fawebfactory%2Fawf-org-pft)
+
+This repo uses [`adapter-auto`](https://kit.svelte.dev/docs/adapters#supported-environments) as installed initially to deploy directly to [Vercel](https://vercel.com/)
+
+See [main project demo](https://awf-org-pft.vercel.app/)
+
+## create-svelte (original README)
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
